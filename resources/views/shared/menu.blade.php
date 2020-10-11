@@ -19,7 +19,8 @@
     </li>
 
     <li class="nav-item">
-        <a class="nav-link {{ Route::currentRouteName() == 'contact' ? 'active' : '' }}" href="{{ route('contact') }}">
+        <a class="nav-link {{ Route::currentRouteName() == 'contacts.create' ? 'active' : '' }}"
+           href="{{ route('contacts.create') }}">
             CONTATTI
         </a>
     </li>
